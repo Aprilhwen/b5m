@@ -1,0 +1,52 @@
+/* =======================main======================== */
+.main .top_p1 a{font:12px/38px "";margin:0 8px;color: #000}
+.main .top_p1 a:hover{border-bottom:1px solid #ed145b ;color: #ed145b;}
+.main .top_p1 span{color:#666;font-size: 12px}
+.main .div_top .topLeft {width:930px;height:596px;font-size: 14px;padding:18px 40px 0 20px;background: #fff;float: left;margin-right: 12px }
+.main .div_top .topLeft .left_l{position: relative; width: 408px;height:596px;float: left;margin-right:20px;}
+.main .div_top .topLeft .left_l .active{display: block;}
+.main .div_top .topLeft .left_l div{display: none;height:408px;width:408px;}
+.main .div_top .topLeft .left_l .hover{height:62px;width:410px;margin:18px 0;position: absolute;top:406px;}
+.main .div_top .topLeft .hover span{color: #d0d0d0; text-align: center;font:20px/60px ""; display: block;width:24px;border:1px solid #f4f4f4;}
+.main .div_top .topLeft .hover span:hover{border:1px solid #d0d0d0;}
+.main .div_top .topLeft .hover .hover_l{float: left;margin-right: 4px;cursor:pointer;}
+.main .div_top .topLeft .hover .hover_r{float: right;cursor:pointer;}
+.main .div_top .topLeft .hover img{border:2px solid #fff;height: 56px;width:56px;margin-right: 10px}
+.main .div_top .topLeft .left_r{height:596px;float: left;}
+.main .div_top .topLeft .bag1{height:408px;width: 408px;border:1px solid #e7e7e7;}
+.main .div_top .topLeft .bag2{height:58px;width: 58px;position: absolute;top:0;left:330px;}
+.main .div_top .topLeft .bag3{float: left;}
+.main .div_top .topLeft .mar{margin:14px 0;}
+.main .div_top .topLeft div.mar{margin: 20px 0;}
+.main .div_top .topLeft div.mar p{float: left;line-height: 30px;height:30px;text-align: center;}
+.main .div_top .topLeft div.mar .title{float: left}
+.main .div_top .topLeft div.numb{height:30px;margin-top: 70px;line-height: 30px}
+.main .div_top .topLeft div.numb i{margin-left: 8px}
+.main .div_top .topLeft em{margin-right: 8px;color: #ff3267}
+.main .div_top .topLeft div.mar p span,button{cursor:pointer;background: none;height:32px; float: left;display: block;padding: 0 4px;border:1px solid #e0e0e0;}
+.main .div_top .topLeft div.mar p .number{width: 30px;border-left: 0;border-right: 0;height: 30px}
+.main .div_top .topLeft .code{height:130px;width: 94px;text-align: center;font-size: 13px; float: right;margin-top: -50px;background: url(../image/code.jpg) no-repeat 0 36px;}
+.main .div_top .topLeft .pri{font-size:20px;color: #e81818 }
+.main .div_top .topLeft del{font-size: 14px;color: #666;margin-left: 10px}
+.main .div_top .topLeft .tit span{color:#e50053;font-size: 16px}
+.main .div_top .topLeft .title{margin:0 40px 0 20px;color: #000;}
+.main .div_top .topLeft .btn{cursor:pointer;height: 42px;width:142px;background: #fff; border:1px solid #ff3267;margin:12px 24px;color: #ff3267}
+.main .div_top .topLeft .B_btn{cursor:pointer;height: 42px;width:142px;background:#ff3267;border:1px solid #ff3267;color: #fff;margin-top:12px;}
+.main .div_top .topLeft .span1{margin:20px 0 20px 0;display: block;font:12px/24px '';}
+.main .div_top .topRight{ width:180px;height:600px;background: #fff;float: left;padding-top: 14px;}
+.main .div_top .list i{display: block;float: left;margin-right: 12px; border: 1px solid #e0e0e0;height:30px;width: 80px}
+.main .div_top .list img{height:28px;width: 28px;float: left;}
+.main .div_top .list span{display: block; height:28px;margin-left:6px;  float: left;color: #666;font:14px/30px '';}
+.main .about_l{width:258px;float: left;margin-right:14px;border: 1px solid #e0e0e0;background: #fff;}
+.main .about_l p{font:24px/34px "";background: #ff3267;color: #fff;text-align: center;}
+.main .about_r{width:910px;float: left;border: 1px solid #e0e0e0;background: #fff;text-align: center}
+.main .about_r .span_class{border-bottom: 2px dashed #e7e7e7;display: block;margin-top: 80px;margin-left:30px;line-height:30px;width: 260px;float: left;}
+.main .about_r div{margin:30px 0 0 16px;background:url(../image/detail-title-line.png) no-repeat;height:300px;width:877px;}
+.main .about_r .right_1 img{width:264px; height:264px;margin-top:40px;float: left;}
+.main .about_r #right_2 img{width:500px; height:500px;margin-top:40px;}
+.main .about_r .right_4 img{float: left;margin: 40px 0 0 -30px;}
+.main .about_r .right_4 i{float: left;font-size: 14px;margin:60px 0 0 14px;}
+.main .about_r .right_4 li{background: url(../image/details-q-a.png) no-repeat 16px 20px;border-top:1px dashed #666;text-align: left;font:14px/28px "";padding:10px 0 10px 34px}
+.main .about_r div p{float: left;color:#fff;margin-left:24px;font:12px/26px "";}
+.main .about_r .notice{width:906px;margin-bottom: 60px}
+.main .msg{margin:28px 0 8px 0;}

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>帮海贝</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/seaShell.css" />	
+	<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
+	<script type="text/javascript" src="js/banner.js"></script>
+	<script type="text/javascript" src="js/buy.js"></script>
+	<script type="text/javascript" src="js/hot.js"></script>
+	<script type="text/javascript" src="js/look.js"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+</head>
+<body>
+	<div id="wrap">
+	<!--*************************top*****************************-->
+		<div class="top">
+			<div class="wrap">
+				<div class="b5m-left"><a class="b5m-slogan" href="http://www.b5m.com/"><img src="image/slogen.png"/>帮海贝，畅享全球品质生活！</a>
+				</div>
+				<div class="b5m-right">
+					<a href="http://web2.qq.com"><p class="p1"></p></a>
+					<a href="https://wx.qq.com"><p class="p2"></p></a>
+					<a href="http://weibo.com/login.php"><p class="p3"></p></a>
+					<a href="http://ucenter.b5m.com/tologin.htm">登录</a>
+					<a href="#" class="a_class">注册</a>
+					<a href="#"><img src="image/tp-my-phone.png" />手机版</a>
+				</div>
+			</div>
+		</div>
+	<!--*************************header*****************************-->
+		<div class="header">
+			<div class="wrap">
+				<ul>
+					<li><a class="img_class" href="#"><img src="image/bhb.png"></a></li>
+					<li class="li_center">
+						<input type="text" placeholder="在这里，淘遍全球正品好货">
+						<a href="#"><p id="p1">搜索</p></a><br/>
+						<p class="header_link">
+							<a class="color" href="#">大扫除</a>|<a href="#">开学季</a>|<a href="#">面膜</a>|<a href="#">防晒</a>|<a href="#">洗发护发</a>|<a href="#">裸妆</a>|<a href="#">健康生活</a>|<a href="#">宝宝哺乳</a>|<a href="#">身体护理</a>|<a href="#">卸妆</a>|<a href="#">纸尿裤</a>|
+						</p>
+					</li>
+					<li class="li_right">
+						<p class="p1"><span></span>400-085-0505</p>
+						<p class="p2"><span></span>kefu@b5m.com</p>
+						<a href="#"><p class="p3"><span>常见问题</span></p></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<!--*************************nav*****************************-->
+		<div class="nav">
+			<div class="wrap">
+				<a href="index.html" class="fir">首页</a>
+				<ul class="ulId"></ul>
+				
+				<ul class="nav_ul">
+					<li class="li1"></li>
+					<li class="li2"></li>
+					<li class="li3"></li>
+					<li class="li4"></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="nav fixed">
+			<div class="wrap">
+				<a href="index.html" class="fir">帮海贝</a>
+				<ul class ="ulClass"></ul>
+				
+				<ul class="nav_ul">
+					<li class="li5"><img src="image/phone.jpg"></li>
+					<li class="li6"><a href="car.html"><img src="image/car.jpg"></a></li>
+				</ul>
+			</div>
+		</div>
+
+	<!--*************************banner*****************************-->
+		<div class="banner">
+			<div class="wrap">
+				<div id="div_id">
+					<div class="scroll">
+						<a href="#"><img class="first" src="image/bn0.jpg"></a>
+						<a href="#"><img src="image/bn1.jpg"></a>
+						<a href="#"><img src="image/bn2.jpg"></a>
+						<a href="#"><img src="image/bn3.jpg"></a>
+						<a href="#"><img src="image/bn4.jpg"></a>
+						<a href="#"><img src="image/bn5.jpg"></a>
+						<a href="#"><img src="image/bn6.jpg"></a>
+					</div>
+					<div class="btn">
+						<span class="hover"></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+				<div id="div_right">
+					<img src="image/super-hot3.png" />
+				</div>
+			</div>
+		</div>
+	<!--*************************buy*****************************-->
+		<div class="buy">
+			<div class="wrap">
+					<div class="Bg">
+						<div class="bg">
+							<h1>限时抢购</h1>
+							<span>本期特卖</span>
+						</div>
+						<p>距离 <i>结束</i> 时间还有：</p>
+						<p id="clock">
+							<span id="hour" class="clock"><i id="decada"></i><i id="unit"></i></span><span class="black">时</span>
+							<span id="min" class="clock"><i id="decada1"></i><i id="unit1"></i></span><span class="black">分</span>
+							<span id="sec" class="clock"><i id="decada2"></i><i id="unit2"></i></span><span class="black">秒</span>
+						</p>
+						<a href="#"><span class="span_t">本期特卖</span></a>
+						<a href="#"><span class="span_x">下期预告</span></a>
+					</div>
+				<ul id="buy_ul"></ul>
+			</div>
+		</div>
+	<!--*************************hot*****************************-->
+		<div class="hot">
+			<div class="wrap">
+				<div id="hot_left">
+					<h1>人气推荐</h1>			
+					<a href="#" class="hot2">女装</a>
+					<a href="#" class="hot1">美妆</a>
+					<ul id="ul_hot">
+						<div class="active"></div>
+						<div></div>				
+					</ul>
+				</div>
+				<div id="hot_right">
+					<p class="hot3">—人气品牌—</p>
+				</div>
+			</div>
+		</div>
+	<!--*************************new*****************************-->
+		<div class="new">
+			<div class="wrap">
+				<div class="div_class">
+					<h1>新品上市</h1>			
+					<a href="#" class="new2">女装</a>
+					<a href="#" class="new1">美妆</a>
+					<ul id="ul_new">
+						<div class="active"></div>
+						<div></div>				
+					</ul>
+				</div>
+			</div>
+		</div>
+	<!--*************************look*****************************-->
+		<div class="look">
+			<div class="wrap">
+				<p class="look_top">
+					<span class="span3">随便看看</span>
+					<span class="span4">HAVE A LOOK</span>
+				</p>
+				<div class="look_left">
+					<div class="left_1">
+						<span>女装</span>
+						<a href="#"><img class="img1" src="image/lo1.jpg"/></a>
+						<a href="#"><img class="img2" src="image/pic1.jpg"/></a>
+						<a href="#"><img class="border" src="image/lo2.jpg"/></a>
+						<p>
+							<a href="#">手提包</a><a href="#">斜挎包</a><a href="#">双肩包</a><a href="#">手提包</a><a href="#">打底裤</a><a href="#">儿童背心</a><a href="#">单肩包</a><a href="#">儿童T恤</a><a href="#">女鞋</a>
+						</p>
+					</div>
+					<div class="left_2">
+						<span>美妆</span>
+						<a href="#"><img class="img1" src="image/logo8.jpg"/></a>
+						<a href="#"><img class="img2" src="image/pic2.jpg"/></a>
+						<a href="#"><img class="border" src="image/pic3.jpg"/></a>
+						<p>
+							<a href="#">手提包</a><a href="#">斜挎包</a><a href="#">双肩包</a><a href="#">手提包</a><a href="#">打底裤</a><a href="#">儿童背心</a><a href="#">单肩包</a><a href="#">儿童T恤</a><a href="#">女鞋</a>
+						</p>
+					</div>
+				</div>
+				<ul id="ul_look"></ul>
+			</div>
+		</div>
+	<!--*************************recommended*****************************-->
+		<div class="recommended">
+			<div class="wrap">
+				<p class="look_top">
+					<span class="span3">品牌推荐</span>
+					<span class="span4">RECOMMENDED</span>
+				</p>
+				<div id="ul_recom"></div>
+			</div>
+		</div>
+	<!--*************************link*****************************-->
+		<div class="link">
+			<div class="wrap">
+				<ul>
+					<li><div class="div1"></div><span class="large">正品保证</span><span class="small">假一赔十</span></li>
+					<li><div class="div2"></div><span class="large">急速发货</span><span class="small">超时赔付</span></li>
+					<li><div class="div3"></div><span class="large">韩国直邮</span><span class="small">100%正品保障</span></li>
+					<li><div class="div4"></div><span class="large">支付便捷</span><span class="small">支付安全便捷</span></li>
+				</ul>
+				<p><ahref="#"><img src="image/b5m.png"></a><a class="a_class" href="#">小帮咨询</a>|<span>咨询电话：400-085-0505</span>|<span>服务时间：09:00-21:00</span>|<span>365天全年无休</span>|<a class="a_class" href="#">合作伙伴</a>|<a href="#">Oblisss</a>|<a href="#">ProtoType</a>|<a href="#">Dinocle</a>|<a href="#">Flitto</a>|<a href="#">Mdot</a></p>
+			</div>
+		</div>
+	<!--*************************footer*****************************-->
+		<div class="footer">
+			<div class="wrap">
+				<p class="footer_p1"><a href="#">帮5采</a>|<a href="#">帮海贝</a>|<a href="#">移动应用</a>|<a href="#">广告联盟</a>|<a href="#">使用条款</a></p>
+				<p>Copyright © 2011-2016 上海载和网络科技有限公司. All rights reserved. Powered by 上海载和网络科技有限公司</p>
+				<p>增值电信业务经营许可证：沪B2-20130065号 | 中华人民共和国互联网药品信息服务资格证书（沪）-非经营性-2013-0034 沪卫(中医)网审【2015】10032号 沪ICP备11034776号-3 | 食品流通许可证：SP3101151410301755 </p>
+				<div><a href="#"><img src="image/shgs.gif"/></a><a href="#"><img src="image/cxwz.png"/></a><a href="#"><img src="image/315.gif"/></a><a href="#"><img src="image/cnnic.png"/></a><a href="#"><img src="image/bottom_small_img.png"/></a><a href="#"><img src="image/foot1.png"/></a><a href="#"><img src="image/picp_bg.png"></a></div>
+			</div>
+		</div>
+	</div>
+<!--*************************sidebar*****************************-->
+	<div id="sidebar">
+		<ul>
+			<li id="li1"><a href="#"></a></li>
+			<li id="li2"><a href="#"></a></li>
+			<li id="li3"><a href="#"><p class="p1"></p><p class="p2">购物车</p><span class="num" style="color:#fff">0</span></a></li>
+			<li id="li4"><a href="#"></a></li>
+			<li id="li5"><a href="#"></a></li>		
+		</ul>
+		<p id="li6"><a href="#"></a></p>
+	</div>
+</body>
+</html>

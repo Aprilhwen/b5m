@@ -1,0 +1,17 @@
+/*=================main====================*/
+.main .main_top{height:130px;margin-top: 10px;border:1px solid #e5e5e5;}
+.main .top_p1{border-bottom:1px solid #e5e5e5; }
+.main .main_top span{margin-left: 10px}
+.main .top_p1 a{font:12px/30px "";margin:0 8px;color: #000}
+.main .main_top div{height:68px;border-bottom:1px solid #e5e5e5;}
+.main .main_top ul li a{display:block;color:#000;float: left;border-right:1px solid #e5e5e5;font:12px/30px ''; width: 62px;text-align: center }
+.main .main_top div p a{font:12px/30px "";color: #000;margin-left: 60px}
+.main .main_top p a:hover{border-bottom:1px solid #ed145b ;color: #ed145b;}
+.main #ul_main li:hover{box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.2);}
+.main ul li img{height:284px;width:284px;border-bottom: 1px #ddd solid;}
+.main ul li a p{width:264px;padding:0 10px;margin-top: 16px}
+.main ul li a p span{color: #000;font:12px/16px '';}
+.main ul li a p span:hover{border-bottom:1px solid #ed145b ;color: #ed145b;}
+.main ul li .pri{padding-left: 10px;color: #ed145b;font-size: 18px;position:absolute;bottom: 26px}
+.main ul li del{color: #999;margin-left: 10px;font-size: 12px;}
+
